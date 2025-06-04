@@ -21,22 +21,23 @@ export function ThemeToggle() {
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
 
-                <Button  className="fixed top-4 right-4" variant={"outline"} size="icon">
-                    <SunIcon className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-0"></SunIcon>
-                    <MoonIcon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transation-all"></MoonIcon>
+                <Button variant={"outline"} size="icon">
+                    <SunIcon className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-0" />
+                    <MoonIcon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all" />
                     <span className="sr-only">Toggle Theme</span>
                 </Button>
+
 
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end">
                 <DropdownMenuItem onClick={() => setTheme("light")}>
-                   <SunIcon className="mr-3"/>Light
+                    <SunIcon className="mr-3" />Light
                 </DropdownMenuItem>
-                 <DropdownMenuItem onClick={() => setTheme("dark")}>
-                   <MoonIcon className="mr-3"/>Dark
+                <DropdownMenuItem onClick={() => setTheme("dark")}>
+                    <MoonIcon className="mr-3" />Dark
                 </DropdownMenuItem>
-                 <DropdownMenuItem onClick={() => setTheme("system")}>
-                   <LaptopIcon className="mr-3"/>System
+                <DropdownMenuItem onClick={() => setTheme("system")}>
+                    <LaptopIcon className="mr-3" />System
                 </DropdownMenuItem>
 
             </DropdownMenuContent>

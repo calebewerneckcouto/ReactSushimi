@@ -128,4 +128,133 @@ export const products: Products[] = [
         image: '/images/combo/combo9.png',
         price: 81
     },
+
+    {
+        id: 30,
+        category: 'beverage',
+        name: 'Fanta Laranja 200ml',
+        image: '/images/bebidas/bebida1.png',
+        price: 81
+    },
+    {
+        id: 31,
+        category: 'beverage',
+        name: 'Agua',
+        image: '/images/bebidas/bebida2.png',
+        price: 81
+    },
+    {
+        id: 32,
+        category: 'beverage',
+        name: 'Fanta Uva 200ml',
+        image: '/images/bebidas/bebida3.png',
+        price: 81
+    },
+    {
+        id: 33,
+        category: 'beverage',
+        name: 'H2O Limão 200ml',
+        image: '/images/bebidas/bebida4.png',
+        price: 81
+    },
+    {
+        id: 34,
+        category: 'beverage',
+        name: 'Sprite 200ml',
+        image: '/images/bebidas/bebida5.png',
+        price: 81
+    },
+    {
+        id: 35,
+        category: 'beverage',
+        name: 'Coca Cola 200ml',
+        image: '/images/bebidas/bebida6.png',
+        price: 81
+    },
+    {
+        id: 36,
+        category: 'beverage',
+        name: 'Suco Natural de Cenoura 500ml',
+        image: '/images/bebidas/bebida7.png',
+        price: 81
+    },
+    {
+        id: 37,
+        category: 'beverage',
+        name: 'Suco Natural de Laranja 500ml',
+        image: '/images/bebidas/bebida8.png',
+        price: 81
+    },
+    {
+        id: 38,
+        category: 'beverage',
+        name: 'Suco Natural de Melancia 500ml',
+        image: '/images/bebidas/bebida9.png',
+        price: 81
+    },
+
+   {
+    id: 39,
+    category: 'temaki',
+    name: 'Temaki de Salmão com Cream Cheese',
+    image: '/images/temaki/Temaki1.png',
+    price: 81
+},
+{
+    id: 40,
+    category: 'temaki',
+    name: 'Temaki de Atum com Cebolinha',
+    image: '/images/temaki/Temaki2.png',
+    price: 81
+},
+{
+    id: 41,
+    category: 'temaki',
+    name: 'Temaki Califórnia (kani, manga e pepino)',
+    image: '/images/temaki/Temaki3.png',
+    price: 81
+},
+{
+    id: 42,
+    category: 'temaki',
+    name: 'Temaki de Camarão Empanado',
+    image: '/images/temaki/Temaki4.png',
+    price: 81
+},
+{
+    id: 43,
+    category: 'temaki',
+    name: 'Temaki Skin (pele de salmão grelhada)',
+    image: '/images/temaki/Temaki5.png',
+    price: 81
+},
+{
+    id: 44,
+    category: 'temaki',
+    name: 'Temaki de Salmão Grelhado com Teriyaki',
+    image: '/images/temaki/Temaki6.png',
+    price: 81
+},
+{
+    id: 45,
+    category: 'temaki',
+    name: 'Temaki Vegano (pepino, cenoura e tofu)',
+    image: '/images/temaki/Temaki7.png',
+    price: 81
+},
+{
+    id: 46,
+    category: 'temaki',
+    name: 'Temaki de Salmão Apimentado',
+    image: '/images/temaki/Temaki8.png',
+    price: 81
+},
+{
+    id: 47,
+    category: 'temaki',
+    name: 'Temaki de Polvo com Gergelim',
+    image: '/images/temaki/Temaki9.png',
+    price: 81
+},
+
 ];
